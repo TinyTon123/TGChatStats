@@ -145,7 +145,7 @@ def get_statistics():
     # Топ самых разговорчивых участников
 
     msgs_grp = (
-        messages_yest[messages_yest['from_id'] != 364167798]
+        messages_yest[messages_yest['from_id'] != ]
         .groupby(['from_name', 'from_id', 'from_username'])
         ['message'].count().sort_values(ascending=False).reset_index().head(10)
     )
@@ -154,7 +154,7 @@ def get_statistics():
 
     thanks_grp = (
         messages_yest[(messages_yest['thanks'] == 1) & (messages_yest['from_name'] != 'Tiny🍀Ton') &
-                      (messages_yest['from_id'] != 364167798)]
+                      (messages_yest['from_id'] != )]
         .groupby(['from_name', 'from_id', 'from_username'])['thanks']
         .count().sort_values(ascending=False).reset_index().head(5)
     )
@@ -162,7 +162,7 @@ def get_statistics():
     # Топ самых любознательных
 
     questions_grp = (
-        messages_yest[(messages_yest['questions'] == 1) & (messages_yest['from_id'] != 364167798)]
+        messages_yest[(messages_yest['questions'] == 1) & (messages_yest['from_id'] != )]
         .groupby(['from_name', 'from_id', 'from_username'])['questions']
         .count().sort_values(ascending=False).reset_index().head(3)
     )
