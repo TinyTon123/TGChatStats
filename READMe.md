@@ -1,5 +1,5 @@
 Обновленная версия скрипта, который собирает информацию из чата в Телеграме и ежедневно публикует отчет за минувший день.
 
-К стеку библиотек, помимо pandas, numpy, json, re, nltk, pymorphy2, sqlalchemy, sqlite, прибавился telethon, благодаря которому стало возможно вычислять сообщения, набравшие больше всего реакций.
+К стеку библиотек, помимо pandas, numpy, json, re, nltk, pymorphy2, sqlalchemy, sqlite, прибавился telethon, благодаря которому стало возможно увеличить автоматизацию процесса, а также вычислять сообщения, набравшие больше всего реакций.
 
-![Пример сообщения со статистикой]([https://picsum.photos/800/600](https://disk.yandex.ru/i/XYWnlP1rPRZ_Pg))
+<image src="https://s134vlx.storage.yandex.net/rdisk/a3079ea0d11837f5e735881d541419807938d229de701523c0ab51c567479ebe/6412174f/h7XlXUdi3SneXvHTfhEMff2aJOwcEPWL42gc1LhdkCDBhhQoMSagWMj7QOYV_iQQdKosTVc7k3DJuVdQOqm7sA==?uid=0&filename=Статистика%20чата.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&fsize=55473&hid=3536f059e010689ca706768d9c8abb37&media_type=image&tknv=v2&etag=b51f6d2db3a927512ce85cf04906b29c&rtoken=9yfOMcTVtjvn&force_default=no&ycrid=na-cccb037f63850e55195db7e4375e5e7f-downloader3f&ts=5f6f50c2931c0&s=71519e4eb72f4139bd80a17036199a35201dccf75c3c98cb302450e1ec8af286&pb=U2FsdGVkX1_WDukPzPboNZ2e3L15R5f9eb7En_J1CNc4wElF-LHllTBRRpYZvoxDh5oU10Vw6boelMm08Gq7LyZ3hqpVrOzKhpM3tZH-Ad4" alt="Пример сообщения со статистикой">
